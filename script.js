@@ -69,7 +69,7 @@ const renderTime = () => {
 
             if(hours == storedv[i].hour && minutes == storedv[i].min && seconds == storedv[i].sec && zone == storedv[i].zone){
                 alarmAudio.play();
-                // alert("Alarm Ringing");
+                alert("Alarm Ringing");
             }
 
         }
